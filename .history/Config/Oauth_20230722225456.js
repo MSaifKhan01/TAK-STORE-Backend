@@ -9,7 +9,7 @@ passport.use(
     {
       clientID:process.env.client_id,
       clientSecret: process.env.client_secret,
-      callbackURL: "https://tak-store-app.onrender.com/user/auth/google/callback",
+      callbackURL: "http://localhost:8000/user/auth/google/callback",
     },
     async function (accessToken, refreshToken, profile, cb) {
       let user = {
