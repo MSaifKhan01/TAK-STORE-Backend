@@ -162,7 +162,7 @@ function token_Generator(res, name, id,image) {
         { expiresIn: "12d" }
     );
     // res.cookie("token", token);
-    res.redirect(`http://127.0.0.1:5500/PROJECT_Front/index.html?token=${token}&username=${name}&image=${image}`)
+    res.redirect(`https://64c4ba3742477c42826723c1--cool-sherbet-bff1bb.netlify.app/index.html?token=${token}&username=${name}&image=${image}`)
     // res.status(202).json({ refreshToken });
   }
   
